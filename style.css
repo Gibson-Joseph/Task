@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.full {
+  margin-top: 70px;
+  background-color: #b1a29d;
+}
+
+.container {
+  width: 834px;
+  margin: auto;
+  border: 2px solid white;
+  background-color: #e4dfdc;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 10px rgb(141, 129, 129);
+}
+
+.nike_icon {
+  position: relative;
+  top: 12px;
+  height: 40px;
+  width: 55px;
+  margin-left: 50px;
+}
+
+nav > a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(114, 114, 103);
+  margin-left: 50px;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  width: 40%;
+  margin: 60px 0 50px 135px;
+}
+
+.scroll_bar {
+  position: relative;
+  right: 75px;
+  top: 10px;
+  width: 0px;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid #a4a19f;
+  height: 160px;
+}
+
+.scroll_bar:hover {
+  cursor: pointer;
+}
+
+.number {
+  position: relative;
+  left: 30px;
+  margin: 7px 0 40px 0;
+  font-size: smaller;
+}
+
+.number:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 1000;
+  color: rgb(44, 42, 43);
+}
+
+.paragraph {
+  color: rgb(114, 114, 103);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  width: 260px;
+  margin-top: 10px;
+}
+
+.bigshoe {
+  position: absolute;
+  top: -28px;
+  right: 17%;
+  width: 40%;
+  height: 680px;
+  filter: drop-shadow(10px 100px 50px rgb(141, 129, 129));
+  transform: rotate(7deg);
+}
+
+.amount {
+  display: flex;
+  margin-top: 15px;
+}
+
+.add_btn {
+  color: white;
+  background-color: rgb(32, 30, 30);
+  padding: 8px;
+  width: 35%;
+  border-radius: 5px;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-small;
+}
+
+.amount > p {
+  margin-left: 13px;
+  padding-top: 4px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.end {
+  background-color: rgb(237, 232, 230);
+}
+
+.collection {
+  margin-left: 50px;
+}
+
+.shoes {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  margin: 15px 20px 15px 0;
+}
+
+.watch_video {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 30px;
+}
+
+.watch_icon {
+  width: 48px;
+  height: 48px;
+  opacity: 0.3;
+}
+
+.watch_video:hover .watch_icon {
+  cursor: pointer;
+  opacity: 0.5;
+}
